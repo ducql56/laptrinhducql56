@@ -5,9 +5,13 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lession1", "Lession1", "{152285D5-CF2C-4BED-8D38-5892776FAEFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesion1A", "Lesion1\Lesion1A\Lesion1A.csproj", "{FB32D51D-3194-4388-ABBE-110CEC0037A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesion1A", "Lesion1\Lesion1A\Lesion1A.csproj", "{FB32D51D-3194-4388-ABBE-110CEC0037A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lession1B", "Lesion1\Lession1B\Lession1B.csproj", "{BD2C23DD-5CE4-49BD-966C-68CC97C049EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lession1B", "Lesion1\Lession1B\Lession1B.csproj", "{BD2C23DD-5CE4-49BD-966C-68CC97C049EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lession3", "Lession3", "{349215D0-94DE-4691-A622-68DFCF5EA9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnFunstion", "Lession3\LearnFunstion\LearnFunstion.csproj", "{474C0371-1BE7-4FD4-9EC3-6E959240C4CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{BD2C23DD-5CE4-49BD-966C-68CC97C049EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD2C23DD-5CE4-49BD-966C-68CC97C049EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD2C23DD-5CE4-49BD-966C-68CC97C049EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474C0371-1BE7-4FD4-9EC3-6E959240C4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474C0371-1BE7-4FD4-9EC3-6E959240C4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474C0371-1BE7-4FD4-9EC3-6E959240C4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474C0371-1BE7-4FD4-9EC3-6E959240C4CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FB32D51D-3194-4388-ABBE-110CEC0037A8} = {152285D5-CF2C-4BED-8D38-5892776FAEFC}
 		{BD2C23DD-5CE4-49BD-966C-68CC97C049EF} = {152285D5-CF2C-4BED-8D38-5892776FAEFC}
+		{474C0371-1BE7-4FD4-9EC3-6E959240C4CA} = {349215D0-94DE-4691-A622-68DFCF5EA9CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19C4578B-471B-40B3-9C0F-65FA7B1131FF}
