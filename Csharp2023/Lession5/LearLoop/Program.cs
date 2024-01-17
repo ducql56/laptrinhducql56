@@ -1,5 +1,5 @@
 ﻿
 using LearLoop;
 
-service.Score();
+service.LearLoopDoWhile();
 Console.ReadKey();
