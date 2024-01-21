@@ -24,7 +24,7 @@ namespace Lession_6HW
         }
         public  static void DemoList2()
         {
-            List<int> listNumber = new List<int>() { 1, 2, 4, 5, 9, 100, 200, 50, 279, 78 };
+            List<int> listNumber = new List<int>() { 1, 2, 4, 5, 9, 100, 200, 50, 279, 78,170,99 };
             List<int> oddNumberList = new List<int>();
             List<int> evenNumberList = new List<int>();
 
