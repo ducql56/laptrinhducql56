@@ -48,7 +48,7 @@ namespace Lession_6HW
                     }
                     
                 }
-                if(Diviso <= 2)
+                if(Diviso == 2)
                 {
                     primeList.Add(i);
                 }
