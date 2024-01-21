@@ -14,12 +14,15 @@ namespace Lession_6HW
             List<int> listNumber = new List<int>() { 1, 2, 4, 5, 9, 100, 200, 50, 279, 78 };
             listNumber.Add(200);
             listNumber.Remove(9);
+            int totalList = 0;
             foreach (int i in listNumber)
-            {
+            { 
                 Console.WriteLine(i);
+                totalList += i;
+                
             }
-            var totalList = listNumber.Sum();
-            var avgList = listNumber.Average();
+
+            var avgList = totalList / (listNumber.Count);
             Console.WriteLine($" Total list :{totalList}, Avglist {avgList}");
             Console.ReadKey();
         }
