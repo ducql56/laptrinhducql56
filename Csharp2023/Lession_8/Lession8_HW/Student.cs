@@ -32,8 +32,15 @@ namespace Lession8_HW
                 double score;
                 while (!checkAge)
                 {
-                    Console.WriteLine(" Reinput your Age:");
+                    if (Age < 0 && Age > 10)
+                    {
+                        Console.WriteLine(" Reinput your Age:");
+                        checkAge = int.TryParse(Console.ReadLine(), out Age);
+                    }
+                    Console.WriteLine(" Reinput the score :");
                     checkAge = int.TryParse(Console.ReadLine(), out Age);
+
+
                 }
                 Console.WriteLine(" Input the score: ");
 
