@@ -35,7 +35,7 @@ namespace Lession8_HW
                     Console.WriteLine(" Reinput your Age:");
                     checkAge = int.TryParse(Console.ReadLine(), out Age);
                 }
-                Console.WriteLine(" input the score: ");
+                Console.WriteLine(" Input the score: ");
 
                 bool checkScore = double.TryParse(Console.ReadLine(), out score);
                 while (!checkScore)
