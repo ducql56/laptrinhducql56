@@ -40,15 +40,15 @@ namespace Lession8_HW
                 {
                     if (score < 0 && score > 10)
                     {
-                        Console.WriteLine(" Reinput the score Math:");
+                        Console.WriteLine(" Reinput the score :");
                         checkScore = double.TryParse(Console.ReadLine(), out score);
 
                     }
-                    Console.WriteLine(" Reinput the score Math:");
+                    Console.WriteLine(" Reinput the score :");
                     checkScore = double.TryParse(Console.ReadLine(), out score);
 
                 }
-                Console.WriteLine($" name:{name},age :{Age}, score{score}");
+                Console.WriteLine($" name:{name},age :{Age}, score {score}");
                 Console.WriteLine("Do you wanto input y/n:");
                 string value = Console.ReadLine();
                 if (value == "y")
